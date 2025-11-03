@@ -13,6 +13,7 @@ def init_app():
 def main():
     st.set_page_config(
         page_title="Конвертер валют",
+        page_icon="💱",
         layout="wide"
     )
     init_app()
@@ -82,4 +83,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
