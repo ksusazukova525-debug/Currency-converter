@@ -17,7 +17,7 @@ def main():
     )
     init_app()
     fetcher = st.session_state.fetcher
-    st.title('Конвертер валют')
+    st.title('💱 Конвертер валют')
     st.markdown('**Курсы валют ЦБ РФ** | Источник: [cbr.ru](https://cbr.ru/currency_base/daily/)')
     st.divider()
     currencies = fetcher.get_all_currencies()
@@ -82,3 +82,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
